@@ -7,7 +7,7 @@ Assignment:
 2. Different ways of calculating simple moving average
 3. First program is a word and occurence counter of n top words. Second program counts the occurences of python keywords in a python file
 4. An epidemic model with the help of SIR, 1D model and a 2D model
-5. Traffict simulation
+5. Traffic simulation
 
 
 ## Run Locally
