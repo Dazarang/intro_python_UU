@@ -1,4 +1,5 @@
 import re
+import os
 
 def wordCount(fileName, n):
     with open (fileName, "r") as file:
@@ -28,7 +29,7 @@ def wordCount(fileName, n):
 
 
    
-fileName = "Assignments\Assignment3\Black_box.txt"
+fileName = os.path.abspath("Assignment3\Black_box.txt")
 
 n = int(input("Number of common words seen: "))
 wordCount(fileName, n)

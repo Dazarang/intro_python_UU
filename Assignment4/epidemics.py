@@ -4,6 +4,7 @@ from matplotlib.lines import Line2D
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as m
+import os
 
 
 #Constants defining state of the individuals in the model
@@ -132,7 +133,7 @@ alpha = 0.2
 beta = 0.05
 initInfect = 100
 
-grid = np.loadtxt("Assignments\Assignment4\worldmap.dat", dtype=int, delimiter=",")
+grid = np.loadtxt(os.path.abspath("Assignment4/worldmap.dat"), dtype=int, delimiter=",")
 
 for i in range(initInfect): 
     x = np.random.randint(len(grid))
